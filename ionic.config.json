@@ -1,0 +1,8 @@
+{
+  "name": "dev1_Ptr_v3.0_b",
+  "app_id": "f9dc85ba",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
