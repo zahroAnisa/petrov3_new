@@ -14,12 +14,12 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'tabs.html',
 })
 export class TabsPage {
+  tab1Root = 'Tab1Page';
+  tab2Root = 'Tab2Page';
+  myIndex: number;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-  }
-
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad TabsPage');
+  	this.myIndex = navParams.data.tabIndex || 0;
   }
 
 }
