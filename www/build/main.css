@@ -25678,6 +25678,29 @@ ion-navbar.toolbar {
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
 
+page-home .button-bar {
+  -webkit-box-shadow: 0 3px 3px #095f19;
+  box-shadow: 0 3px 3px #095f19;
+  border-color: #00b052;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+page-home .activated.button:hover {
+  color: #fff;
+  background-color: #00b052;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+page-home .utamaPopuler {
+  color: #000;
+  background-color: #fff;
+  border-left: 2px solid #00b052;
+  border-right: 2px solid #00b052;
+  border-top: 2px solid #00b052;
+}
+
 ion-icon[class*="appname-"] {
   -webkit-mask-size: contain;
   mask-size: contain;
