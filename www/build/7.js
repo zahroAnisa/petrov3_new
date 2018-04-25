@@ -72,7 +72,7 @@ var BeritaPage = /** @class */ (function () {
     };
     BeritaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-berita',template:/*ion-inline-start:"E:\Petro\ptr1_3_clone\src\pages\berita\berita.html"*/'<!--\n  Generated template for the BeritaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>berita</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"E:\Petro\ptr1_3_clone\src\pages\berita\berita.html"*/,
+            selector: 'page-berita',template:/*ion-inline-start:"E:\Petro\plan Dev1\dev1_v3\src\pages\berita\berita.html"*/'<!--\n\n  Generated template for the BeritaPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>berita</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"E:\Petro\plan Dev1\dev1_v3\src\pages\berita\berita.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], BeritaPage);
