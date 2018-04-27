@@ -39,3 +39,7 @@ try to type this
 ```
 npm rebuild node-sass 
 ```
+
+## Page Done
+1. Info Produk
+2. Pemasaran
