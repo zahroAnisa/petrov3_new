@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the CsrPage page.
+ * Generated class for the CorsoresPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,16 +10,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-csr',
-  templateUrl: 'csr.html',
+  selector: 'page-corsores',
+  templateUrl: 'corsores.html',
 })
-export class CsrPage {
+export class CorsoresPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad CsrPage');
+    console.log('ionViewDidLoad CorsoresPage');
   }
 
 }
