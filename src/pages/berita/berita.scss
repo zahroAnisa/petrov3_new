@@ -1,29 +1,23 @@
-page-berita {
-	.contentBerita{
-		margin-top: 50px;
-	}
-	ion-card.cardButtonBerita {
-    	position: relative;
-    	text-align: center;
-    	padding-top: 2px;
-    	padding-bottom: 2px;
-    	margin-bottom: 15px;
-    	font-weight: bold;
-    	border-top-color: #00b052;
-        border-top-style: outset;
-        border-width: 1px;
-        border-color: #00b052;
-        box-shadow: 0 3px 3px rgb(9, 95, 25);
-	}
-	ion-card-title {
-    	position: absolute;
-    	font-size: 25px;
-    	width: 100%;
-    	font-weight: bold;
-    	color: #fff !important;
-	}
+.contentBerita{
+	margin-top: 50px;
 }
-=======
-page-berita {
-
+ion-card.cardButtonBerita {
+	position: relative;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	border-top-color: #00b052;
+    border-top-style: outset;
+    border-width: 1px;
+    border-color: #00b052;
+    box-shadow: 0 3px 3px rgb(9, 95, 25);
+}
+ion-card-title {
+	position: absolute;
+	font-size: 25px;
+	width: 100%;
+	font-weight: bold;
+	color: #fff !important;
 }
