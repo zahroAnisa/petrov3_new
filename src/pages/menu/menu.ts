@@ -32,7 +32,7 @@ export class MenuPage {
     { title: 'TataKelola', pageName: 'TataKelolaPage', icon: 'shuffle' },
     { title: 'Profil', pageName: 'ProfilPage', icon: 'person' },
     { title: 'InfoProduk', pageName: 'InfoProdukPage', icon: 'cube' },
-    { title: 'CSR', pageName: 'CSRPage', icon: 'shuffle' },
+    { title: 'CSR', pageName: 'CorsoresPage', icon: 'shuffle' },
     { title: 'Tautan', pageName: 'TautanPage', icon: 'shuffle' },
     { title: 'Bantuan', pageName: 'BantuanPage', icon: 'shuffle' }
   ];
