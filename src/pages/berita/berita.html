@@ -11,29 +11,39 @@
 
 
 <ion-content>
-	<ion-card class="cardButtonBerita contentBerita">
-	    <ion-card-content >
-	      Berita / Reportase
-	    </ion-card-content>
-  	</ion-card>
-  	<ion-card class="cardButtonBerita">
-	    <ion-card-content >
-	      Pengumuman
-	    </ion-card-content>
-  	</ion-card>
-  	<ion-card class="cardButtonBerita">
-	    <ion-card-content >
-	      Siaran Pers
-	    </ion-card-content>
-  	</ion-card>
-  	<ion-card class="cardButtonBerita">
-	    <ion-card-content >
-	      Artikel
-	    </ion-card-content>
-  	</ion-card>
-  	<ion-card class="cardButtonBerita">
-	    <ion-card-content >
-	      Kegiatan Setiap Tahun
-	    </ion-card-content>
-  	</ion-card>
+	<a class="linkBerita" [navPush]="'BeritaReportasePage'">
+		<ion-card class="cardButtonBerita contentBerita">
+		    <ion-card-content >
+		       Berita / Reportase
+		    </ion-card-content>
+  		</ion-card>
+  	</a>
+  	<a class="linkBerita" [navPush]="'PengumumanPage'">
+		<ion-card class="cardButtonBerita">
+		    <ion-card-content >
+		       Pengumuman
+		    </ion-card-content>
+  		</ion-card>
+  	</a>
+  	<a class="linkBerita" [navPush]="'SiaranPersPage'">
+		<ion-card class="cardButtonBerita ">
+		    <ion-card-content >
+		       Siaran Pers
+		    </ion-card-content>
+  		</ion-card>
+  	</a>
+  	<a class="linkBerita" [navPush]="'ArtikelPage'">
+		<ion-card class="cardButtonBerita ">
+		    <ion-card-content >
+		       Artikel
+		    </ion-card-content>
+  		</ion-card>
+  	</a>
+  	<a class="linkBerita" [navPush]="'KegiatanTahunanPage'">
+		<ion-card class="cardButtonBerita ">
+		    <ion-card-content >
+		       Kegiatan Setiap Tahun
+		    </ion-card-content>
+  		</ion-card>
+  	</a>
 </ion-content>
