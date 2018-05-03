@@ -44,6 +44,16 @@ $colors: (
   brown: #B75E33
 );
 
+$black: rgba(#000000, .8);
+$black-a: lighten($black, 10%);
+$black-b: lighten($black, 20%);
+$black-c: lighten($black, 40%);
+$black-d: lighten($black, 60%);
+
+$theme-color-1: $black-a;
+$theme-color-2: #00e9d5;
+$theme-color-3: $black-b;
+$theme-color-4: #ae75e7;
 
 // App iOS Variables
 // --------------------------------------------------

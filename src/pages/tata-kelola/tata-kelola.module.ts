@@ -9,5 +9,8 @@ import { TataKelolaPage } from './tata-kelola';
   imports: [
     IonicPageModule.forChild(TataKelolaPage),
   ],
+  exports: [
+  	TataKelolaPage
+  ]
 })
 export class TataKelolaPageModule {}

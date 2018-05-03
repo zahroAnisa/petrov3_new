@@ -14,8 +14,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'tata-kelola.html',
 })
 export class TataKelolaPage {
+  mySelectedIndex: number;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor( public navCtrl: NavController, public navParams: NavParams) {
+    this.mySelectedIndex = navParams.data.tabIndex || 0;
   }
 
   ionViewDidLoad() {
