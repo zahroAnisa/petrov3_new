@@ -5,14 +5,97 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-
-  <ion-navbar>
+  <ion-navbar no-border-bottom color="header">
+		<button ion-button menuToggle>
+			<ion-icon name="menu"></ion-icon>
+		</button>
     <ion-title>TataKelola</ion-title>
   </ion-navbar>
-
 </ion-header>
 
 
 <ion-content padding>
+  <div class="row item-text-wrap text-center" >
+            <div class="item col col-4">
+                <a [navPush]="'PedomanWbsPage'">
+                    <img style="width:50px; height: 50px;" src="../assets/imgs/music.png">
+                    <p>Pedoman WBS</p>
+                </a>
+            </div>
+            <div class="item col col-4">
+                <a [navPush]="'PedomanGcgPage'">
+                    <img style="width:50px; height: 50px;" src="../assets/imgs/graphic.png">
+                    <p class="text-menuProfil">Pedoman GCG</p>
+                </a>
+            </div>    
+            <div class="item col col-4 ">
+                <a [navPush]="'PedomanEtikPage'">
+                    <img style="width:50px; height: 50px;" src="../assets/imgs/planning.png">
+                    <p>Pedoman Etika Kerja</p>
+                </a>
+            </div> 
+  </div>
+  <div class="row item-text-wrap text-center">   
+            <div class="item col col-4 ">
+                <a [navPush]="'PedomanJasaPage'">
+                    <img style="width:50px; height: 50px;" src="../assets/imgs/gearshift.png">
+                    <p>Pedoman Pengadaan Barang dan Jasa</p>
+                </a>
+            </div> 
+            <div class="item col col-4">
+                <a [navPush]="'PedomanKerjaPage'">
+                    <img style="width:50px; height: 50px;" src="../assets/imgs/policy.png">
+                    <p>Pedoman Kerja Kebijakan Dekom dan Direksi</p>
+                </a>
+            </div>  
+            <div class="item col col-4 ">
+                <a [navPush]="'PedomanAuditPage'">
+                    <img style="width:50px; height: 50px;" src="../assets/imgs/gearshift.png">
+                    <p>Pedoman Kerja Komite Audit</p>
+                </a>
+            </div>  
+  </div>
+  <div class="row item-text-wrap text-center">
+            <div class="item col col-4">
+                <a [navPush]="'PedomanKomitePage'">
+                    <img style="width:50px; height: 50px;" src="../assets/imgs/planning.png">
+                    <p >Pedoman Kerja Komite Man.resiko</p>
+                </a>
+            </div>  
+            <div class="item col col-4">
+                <a [navPush]="'PedomanGratifikasiPage'">
+                    <img style="width:50px; height: 50px;" src="../assets/imgs/policy.png">
+                    <p>Pedoman Pengendalian Greatifikasi</p>
+                </a>
+            </div>  
+            <div class="item col col-4 ">
+                <a [navPush]="'TanyaGcgPage'">
+                    <img style="width:50px; height: 50px;" src="../assets/imgs/planning.png">
+                    <p>Tanya Jawab GCG</p>
+                </a>
+            </div>  
+  </div>
 
+
+  <!-- <h3 class="search-query">
+    <span>Showing: </span>
+    <ion-badge class="query-tag"></ion-badge>
+    <span class="query-explanation"> concepts</span>
+  </h3>
+
+  <ion-card class="category-concept-card">
+    <ion-card-header>
+      <h2 class="category-title">Tanya Jawab</h2>
+    </ion-card-header>
+    <ion-card-content>
+      <p class="category-description">
+        Selengkapnya...
+      </p>
+      <ion-row>
+        <ion-col no-padding>
+          <ion-badge class="category-tag" ></ion-badge>
+        </ion-col>
+      </ion-row>
+    </ion-card-content>
+  </ion-card> -->
 </ion-content>
