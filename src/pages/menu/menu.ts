@@ -22,17 +22,17 @@ export class MenuPage {
   @ViewChild(Nav) nav: Nav;
  
   pages: PageInterface[] = [
-    { title: 'Tab 1', pageName: 'TabsPage', tabComponent: 'Tab1Page', index: 0, icon: 'home' },
-    { title: 'Tab 2', pageName: 'TabsPage', tabComponent: 'Tab2Page', index: 1, icon: 'contacts' },
+    { title: 'Tab 1', pageName: 'TabsPage', tabComponent: 'Tab1Page', index: 0, icon: 'shuffle' },
+    { title: 'Tab 2', pageName: 'TabsPage', tabComponent: 'Tab2Page', index: 1, icon: 'shuffle' },
     { title: 'Special', pageName: 'SpecialPage', icon: 'shuffle' },
-    { title: 'Home', pageName: 'HomePage', icon: 'shuffle' },
-    { title: 'Pemasaran', pageName: 'PemasaranPage', icon: 'shuffle' },
-    { title: 'Berita', pageName: 'BeritaPage', icon: 'shuffle' },
-    { title: 'Laporan', pageName: 'LaporanPage', icon: 'shuffle' },
+    { title: 'Home', pageName: 'HomePage', icon: 'home' },
+    { title: 'Pemasaran', pageName: 'PemasaranPage', icon: 'cart' },
+    { title: 'Berita', pageName: 'BeritaPage', icon: 'list-box' },
+    { title: 'Laporan', pageName: 'LaporanPage', icon: 'document' },
     { title: 'TataKelola', pageName: 'TataKelolaPage', icon: 'shuffle' },
-    { title: 'Profil', pageName: 'ProfilPage', icon: 'shuffle' },
-    { title: 'InfoProduk', pageName: 'InfoProdukPage', icon: 'shuffle' },
-    { title: 'CSR', pageName: 'CSRPage', icon: 'shuffle' },
+    { title: 'Profil', pageName: 'ProfilPage', icon: 'person' },
+    { title: 'InfoProduk', pageName: 'InfoProdukPage', icon: 'cube' },
+    { title: 'CSR', pageName: 'CorsoresPage', icon: 'shuffle' },
     { title: 'Tautan', pageName: 'TautanPage', icon: 'shuffle' },
     { title: 'Bantuan', pageName: 'BantuanPage', icon: 'shuffle' }
   ];

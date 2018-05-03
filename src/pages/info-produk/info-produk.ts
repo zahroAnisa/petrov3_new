@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController } from 'ionic-angular';
 
 /**
  * Generated class for the InfoProdukPage page.
@@ -15,11 +15,19 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class InfoProdukPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  cards1: any;
+  cards2: any;
+  slideData = [{ image: "../assets/imgs/sni17_con.jpg" },{ image: "../assets/imgs/proper 17_con.jpg"}]
+  slideLength: boolean = false;
+
+  constructor(public navCtrl: NavController) {
+  	if(this.slideData.length>0) {
+      this.slideLength = true;
+	}
+	//NEWS CARDS
+	this.cards1 = new Array(1);//untuk jumlah card yang akan ditampilkan
+	this.cards2 = new Array(1);
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad InfoProdukPage');
-  }
 
 }

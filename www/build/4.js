@@ -1,6 +1,6 @@
 webpackJsonp([4],{
 
-/***/ 271:
+/***/ 275:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MenuPageModule", function() { return MenuPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__menu__ = __webpack_require__(279);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__menu__ = __webpack_require__(283);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -38,7 +38,7 @@ var MenuPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 279:
+/***/ 283:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -114,7 +114,7 @@ var MenuPage = /** @class */ (function () {
     ], MenuPage.prototype, "nav", void 0);
     MenuPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-menu',template:/*ion-inline-start:"E:\Petro\ptr1_3_clone\src\pages\menu\menu.html"*/'<ion-menu [content]="content">\n\n	<ion-header>\n\n	  <ion-toolbar>\n\n	    <ion-title>Menu</ion-title>\n\n	  </ion-toolbar>\n\n	</ion-header>\n\n\n\n\n\n	<ion-content>\n\n		<ion-list>\n\n			<button ion-item menuClose *ngFor="let p of pages" (click)="openPage(p)">\n\n					<ion-icon item-start [name]="p.icon" [color]="isActive(p)"></ion-icon>\n\n					{{ p.title }}\n\n			</button>\n\n		</ion-list>\n\n	</ion-content>\n\n\n\n</ion-menu>\n\n\n\n<!-- main navigation -->\n\n<ion-nav [root]="rootPage"\n\n #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"E:\Petro\ptr1_3_clone\src\pages\menu\menu.html"*/,
+            selector: 'page-menu',template:/*ion-inline-start:"E:\Petro\plan Dev1\dev1_v3\src\pages\menu\menu.html"*/'<ion-menu [content]="content">\n\n	<ion-header>\n\n	  <ion-toolbar color="header">\n\n	    <ion-title>Menu</ion-title>\n\n	  </ion-toolbar>\n\n	</ion-header>\n\n\n\n\n\n	<ion-content>\n\n		<ion-list>\n\n			<button ion-item menuClose *ngFor="let p of pages" (click)="openPage(p)">\n\n					<ion-icon item-start [name]="p.icon" [color]="isActive(p)"></ion-icon>\n\n					{{ p.title }}\n\n			</button>\n\n		</ion-list>\n\n	</ion-content>\n\n\n\n</ion-menu>\n\n\n\n<!-- main navigation -->\n\n<ion-nav [root]="rootPage"\n\n #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"E:\Petro\plan Dev1\dev1_v3\src\pages\menu\menu.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], MenuPage);

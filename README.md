@@ -5,7 +5,12 @@
 
 * **Image**
    * [ImageSLiderAutomatically](https://github.com/ahmadsolehin/Create-Autoplay-Slides-using-Ionic-2/tree/master/src/pages/home)
+<<<<<<< HEAD
+
+
+=======
    
+>>>>>>> 2feac474089d1594eb17534668c686e06fc1f292
 ## How to run
 
  
@@ -34,3 +39,9 @@ try to type this
 ```
 npm rebuild node-sass 
 ```
+
+## Page Done
+1. Info Produk
+2. Pemasaran
+3. Berita
+4. Laporan
