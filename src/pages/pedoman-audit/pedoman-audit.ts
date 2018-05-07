@@ -22,4 +22,8 @@ export class PedomanAuditPage {
     console.log('ionViewDidLoad PedomanAuditPage');
   }
 
+  downloadAndOpenPdf(){
+    window.open("http://www.petrokimia-gresik.com/Resources/Docs/Committee%20Audit%20Charter.pdf",'_system', 'location=yes');
+  }
+
 }

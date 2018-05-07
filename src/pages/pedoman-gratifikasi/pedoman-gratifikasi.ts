@@ -22,4 +22,9 @@ export class PedomanGratifikasiPage {
     console.log('ionViewDidLoad PedomanGratifikasiPage');
   }
 
+  download(){
+  	window.open("http://www.petrokimia-gresik.com/Resources/Docs/Pedoman%20Pengendalian%20Gratifikasi.pdf",'_system', 'location=yes');
+  }
+
+
 }

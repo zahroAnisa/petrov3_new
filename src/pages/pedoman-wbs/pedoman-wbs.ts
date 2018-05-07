@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, Platform } from 'ionic-angular';
 
 /**
  * Generated class for the PedomanWbsPage page.
@@ -15,11 +15,18 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class PedomanWbsPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(
+  public navCtrl: NavController, 
+  public navParams: NavParams
+  ) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad PedomanWbsPage');
+  }
+
+  downloadAndOpenPdf(){
+    window.open("http://www.petrokimia-gresik.com/Resources/Docs/Pedoman%20WBS.pdf",'_system', 'location=yes');
   }
 
 }

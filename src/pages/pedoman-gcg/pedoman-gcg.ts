@@ -22,4 +22,8 @@ export class PedomanGcgPage {
     console.log('ionViewDidLoad PedomanGcgPage');
   }
 
+  downloadAndOpenPdf(){
+    window.open("http://www.petrokimia-gresik.com/Resources/Docs/PEDOMAN%20GCG%202016.pdf",'_system', 'location=yes');
+  }
+
 }
