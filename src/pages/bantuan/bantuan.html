@@ -5,16 +5,38 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-<ion-navbar no-border-bottom >
+	<ion-navbar no-border-bottom color="header">
 		<button ion-button menuToggle>
 			<ion-icon name="menu"></ion-icon>
 		</button>
-    <ion-title>Bantuan</ion-title>
+    		<ion-title>Bantuan</ion-title>
   </ion-navbar>
 
 </ion-header>
 
-
 <ion-content padding>
+		
+  <ion-list>
+    <button [navPush]="'FaQsPage'" ion-item>
+      <ion-icon item-start><img src="assets/imgs/bantuan/faq.png" style="width: 30px;height: 30px;"></ion-icon>
+      FaQs
+    </button>
+
+    <button [navPush]="'KontakPage'" ion-item>
+      <ion-icon item-start><img src="assets/imgs/bantuan/kontak.png" style="width: 30px;height: 30px;"></ion-icon>
+      Kontak
+    </button>
+
+    <button [navPush]="'InfoAppPage'" ion-item>
+      <ion-icon item-start><img src="assets/imgs/bantuan/info.png" style="width: 30px;height: 30px;"></ion-icon>
+      Info App
+    </button>
+
+    <button [navPush]="'KritikPage'" ion-item>
+      <ion-icon item-start><img src="assets/imgs/bantuan/kritik.png" style="width: 35px;height: 40px;"></ion-icon>
+      Kritik dan Saran
+    </button>
+
+  </ion-list>
 
 </ion-content>

@@ -1,0 +1,52 @@
+page-kontak {
+	.accordion {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border-right: none;
+    outline: none;
+    transition: 0.4s;
+
+	}
+	.accordion:after {
+	    content: '\02795'; /* Unicode character for "plus" sign (+) */
+	    font-size: 13px;
+	    color: #000;
+	    float: right;
+	    margin-left: 5px;
+	}
+
+	.active:after {
+	    content: "\2796"; /* Unicode character for "minus" sign (-) */
+	    color: #fff;
+	}
+
+	/* Add a background color to the button if it is clicked on (add the
+	.active class with JS), and when you move the mouse over it (hover) */
+	.active, .accordion:hover {
+	    background-color: #43a047;
+	    color: #fff;
+	    font-weight: bold;
+	}
+
+	/* Style the accordion panel. Note: hidden by default */
+	.panel {
+	    padding: 0 18px;
+	    /*background-color: #f1f8e9;hijau muda*/
+	    background-color: #f1f8e9;
+	    display: none;
+	    overflow: hidden;
+	}
+	.cardKontak{
+		text-align: left;
+	}
+	.email{
+		content: \f3da;
+	}
+	.icon-tag:before {
+  content: "\e900";
+}
+}
