@@ -22,4 +22,9 @@ export class PedomanKerjaPage {
     console.log('ionViewDidLoad PedomanKerjaPage');
   }
 
+  downloadAndOpenPdf(){
+  	window.open("http://www.petrokimia-gresik.com/Resources/Docs/BPM.pdf",'_system', 'location=yes');
+  }
+
+
 }

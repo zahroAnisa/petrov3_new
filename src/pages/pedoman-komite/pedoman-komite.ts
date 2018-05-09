@@ -22,4 +22,8 @@ export class PedomanKomitePage {
     console.log('ionViewDidLoad PedomanKomitePage');
   }
 
+  downloadAndOpenPdf(){
+  	window.open("http://www.petrokimia-gresik.com/Resources/Docs/Committee%20Risk%20Management.pdf",'_system', 'location=yes');
+  }
+
 }

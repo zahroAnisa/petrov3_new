@@ -22,4 +22,8 @@ export class PedomanEtikPage {
     console.log('ionViewDidLoad PedomanEtikPage');
   }
 
+  downloadAndOpenPdf(){
+    window.open("http://www.petrokimia-gresik.com/Resources/Docs/PEBK_2017.pdf",'_system', 'location=yes');
+  }
+
 }
