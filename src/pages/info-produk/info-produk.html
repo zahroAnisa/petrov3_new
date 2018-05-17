@@ -9,18 +9,18 @@
 
 
 <ion-content padding="true" class="has-header">
-	<ion-slides autoplay="5000" loop="true" speed="3000" style="width:100%;height:200px;" class="slideImage">
+  <ion-slides autoplay="5000" loop="true" speed="3000" style="width:100%;height:200px;" class="slideImage">
       <ion-slide *ngFor="let slide of slideData">
         <img src="{{slide.image}}" />
       </ion-slide>
   </ion-slides>
 
   <ul>
-    <li><a ui-sref="menu.pupuk()" id="infoProduk-button52" class="btn paper paper-raise-flatten">Pupuk</a></li>
-    <li><a ui-sref="menu.nonPupuk()" id="infoProduk-button53" class="btn paper paper-raise-flatten">Non Pupuk</a></li>
-    <li><a ui-sref="menu.brosur()" id="infoProduk-button54" class="btn paper paper-raise-flatten">Brosur</a></li>
-    <li><a ui-sref="menu.dosisPemupukan()" id="infoProduk-button55" class="btn paper paper-raise-flatten">Dosis Pemupukan</a></li>
-    <li><a ui-sref="menu.testimoniProduk()" id="infoProduk-button56" class="btn paper paper-raise-flatten">Testimoni Produk</a></li>
+    <li><a ui-sref="menu.pupuk()" id="infoProduk-button52" class="btn paper paper-raise-flatten" [navPush]="'PupukPage'">Pupuk</a></li>
+    <li><a ui-sref="menu.nonPupuk()" id="infoProduk-button53" class="btn paper paper-raise-flatten" [navPush]="'NonPage'">Non Pupuk</a></li>
+    <li><a ui-sref="menu.brosur()" id="infoProduk-button54" class="btn paper paper-raise-flatten" [navPush]="'BrosurPage'">Brosur</a></li>
+    <li><a ui-sref="menu.dosisPemupukan()" id="infoProduk-button55" class="btn paper paper-raise-flatten" [navPush]="'DosisPage'">Dosis Pemupukan</a></li>
+    <li><a ui-sref="menu.testimoniProduk()" id="infoProduk-button56" class="btn paper paper-raise-flatten" [navPush]="'TestimoniPage'">Testimoni Produk</a></li>
   </ul>
 
 </ion-content>
