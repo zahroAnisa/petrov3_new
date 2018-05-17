@@ -1,0 +1,96 @@
+<!--
+  Generated template for the PupukPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar no-border-bottom color="header">
+		<button ion-button menuToggle>
+			<ion-icon name="menu"></ion-icon>
+		</button>
+    <ion-title>Pupuk</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <div class="row item-text-wrap text-center" >
+            <div class="item col col-4">
+               <img src="../assets/imgs/Pupuk/UREA.png"> 
+                <a [navPush]="'PedomanWbsPage'">
+                    <p>Urea</p>
+                </a>
+            </div>
+            <div class="item col col-4">
+                <a [navPush]="'PedomanGcgPage'">
+                    <img src="../assets/imgs/Pupuk/zza.png">
+                    <p class="text-menuProfil">ZA</p>
+                </a>
+            </div>     
+  </div>
+  <div class="row item-text-wrap text-center" >    
+            <div class="item col col-4 ">
+                <a [navPush]="'PedomanEtikPage'">
+                    <img src="../assets/imgs/Pupuk/SP-36.png">
+                    <p>SP-36</p>
+                </a>
+            </div>
+        <div class="item col col-4 ">
+                <a [navPush]="'PedomanJasaPage'">
+                    <img src="../assets/imgs/Pupuk/ZK.png">
+                    <p>ZK</p>
+                </a>
+            </div>  
+  </div>
+  <div class="row item-text-wrap text-center">    
+            <div class="item col col-4">
+                <a [navPush]="'PedomanKerjaPage'">
+                    <img src="../assets/imgs/Pupuk/phonska.png">
+                    <p>Phonska</p>
+                </a>
+            </div>  
+            <div class="item col col-4 ">
+                <a [navPush]="'PedomanAuditPage'">
+                    <img src="../assets/imgs/Pupuk/npk.png">
+                    <p>NPK</p>
+                </a>
+            </div>  
+  </div>
+  <div class="row item-text-wrap text-center">
+            <div class="item col col-4">
+                <a [navPush]="'PedomanKomitePage'">
+                    <img src="../assets/imgs/Pupuk/KCL.png">
+                    <p >KCL</p>
+                </a>
+            </div>  
+            <div class="item col col-4">
+                <a [navPush]="'PedomanGratifikasiPage'">
+                    <img src="../assets/imgs/Pupuk/petroganik.png">
+                    <p>Petroganik</p>
+                </a>
+            </div>    
+  </div>
+    <div class="row item-text-wrap text-center"> 
+            <div class="item col col-4 ">
+                <a [navPush]="'TanyaGcgPage'">
+                    <img style="width:175px;" src="../assets/imgs/Pupuk/petro.png">
+                    <p>Petro Biofretil</p>
+                </a>
+            </div>
+         <div class="item col col-4 ">
+                <a [navPush]="'TanyaGcgPage'">
+                    <img src="../assets/imgs/Pupuk/rock.png">
+                    <p>Rock Phospate</p>
+                </a>
+            </div>      
+  </div>
+  <div class="row item-text-wrap text-center"> 
+       <div class="item col col-4">
+                <a [navPush]="'PedomanKomitePage'">
+                    <img style="width:125px;" src="../assets/imgs/Pupuk/pupuk.png">
+                    <p >Pupuk Spesifikasi Komoditi</p>
+                </a>
+            </div>  
+  </div>
+</ion-content>
