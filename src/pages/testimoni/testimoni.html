@@ -1,18 +1,45 @@
 <!--
-  Generated template for the TestimoniPage page.
+  Generated template for the TestimoniProdukPage page.
 
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
 <ion-header>
-
-  <ion-navbar>
-    <ion-title>Testimoni</ion-title>
+  <ion-navbar no-border-bottom color="header">
+		<button ion-button menuToggle>
+			<ion-icon name="menu"></ion-icon>
+		</button>
+    <ion-title>Testimoni Produk</ion-title>
   </ion-navbar>
-
 </ion-header>
 
 
 <ion-content padding>
+	<div class="row item-text-wrap text-center">
+		<ion-card>
+  <img src="../assets/imgs/Pupuk/kebomas.png"style="width: 150px;height: 150px;">
+  <ion-card-content>
+    <a [navPush]="'Video1Page'">
+         <ion-card-title> 
+          NPK Kebomas Horti 
+         </ion-card-title> 
+    </a>	
+  </ion-card-content>
+</ion-card>		
+	</div>
+
+	<div class="row item-text-wrap text-center">
+		<ion-card>
+  <img src="../assets/imgs/Pupuk/npk.png"style="width: 150px;height: 150px;">
+  <ion-card-content>
+     <a [navPush]="'Video2Page'">
+         <ion-card-title> 
+          NPK Kebomas 
+         </ion-card-title> 
+    </a>
+
+  </ion-card-content>
+</ion-card>		
+	</div>
 
 </ion-content>
